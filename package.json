@@ -1,0 +1,11 @@
+{
+  "name": "sdaw_9483",
+  "version": "1.0.0",
+  "description": "Proyecto para la tarea de repositorios digitales SDAW_9483",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Peñarrieta",
+  "license": "MIT"
+}
