@@ -23,8 +23,11 @@ Este repositorio contendrá:
 ## Próximos pasos
 El README se actualizará conforme avancemos por cada etapa de la tarea.
 
-## Información técnica añadida desde rama 1 (rama1_Penarrieta)
+## Información técnica añadida desde rama 2 (rama2_Peñarrieta)
+Salida de `git log --oneline -n 1`:
+`db644e8 (HEAD -> rama2_Peñarrieta, origin/main, main) primer commit - estructura inicial del proyecto SDAW_9483`
 
+## Información técnica añadida desde rama 1 (rama1_Peñarrieta)
 En esta rama se describen los principales comandos básicos de Git usados en la práctica:
 
 - **git init**: Inicializa un repositorio Git creando la carpeta `.git` para comenzar el control de versiones.
@@ -33,4 +36,3 @@ En esta rama se describen los principales comandos básicos de Git usados en la 
 - **git branch**: Permite ver, crear o eliminar ramas para trabajar de forma paralela.
 - **git merge**: Fusiona los cambios de una rama en otra.
 - **git push**: Envía los commits locales al repositorio remoto en GitHub.
-
