@@ -22,3 +22,7 @@ Este repositorio contendrá:
 
 ## Próximos pasos
 El README se actualizará conforme avancemos por cada etapa de la tarea.
+
+## Información técnica añadida desde rama 2 (rama2_Penarrieta)
+Salida de `git log --oneline -n 1`:
+db644e8 (HEAD -> rama2_Peñarrieta, origin/main, main) primer commit - estructura inicial del proyecto SDAW_9483
