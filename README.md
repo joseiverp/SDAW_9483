@@ -247,3 +247,36 @@ Para conectar mi repositorio local con un nuevo remoto en GitLab, primero config
 - Ver remotos configurados: `git remote -v`
 - Subir cambios al remoto GitLab: `git push gitlab main`
 - Comprobar ramas y commits replicados en GitLab desde la interfaz web.
+
+
+## 🧩 Información final de la tarea (remotos múltiples)
+
+### ✔ ¿Qué significa tener múltiples remotos?
+Consiste en que un mismo repositorio local está conectado a más de un repositorio remoto. En mi caso, trabajo con GitHub (origin) y con GitLab (gitlab) desde la misma copia local. Esto permite sincronizar el mismo proyecto en diferentes plataformas.
+
+### ✔ Ventajas
+- Permite mantener copias del proyecto en distintos servicios.
+- Facilita presentar trabajos o integraciones separadas sin duplicar repositorios.
+- Permite comparar flujos de trabajo entre plataformas (PR en GitHub y MR en GitLab).
+- Sirve como sistema adicional de respaldo.
+
+### ✔ Posibles inconvenientes
+- Hay que controlar a qué remoto se sube cada rama.
+- Es más fácil equivocarse si no se verifica `git remote -v`.
+- Puede requerir merges adicionales si los remotos se actualizan por separado.
+- La sincronización exige más pasos que usar solo un remoto.
+
+### ✔ Comandos utilizados en esta parte de la práctica
+- `git remote -v`  
+- `git remote add gitlab <URL>`  
+- `ssh -T git@gitlab.com`  
+- `git push origin ramaX`  
+- `git push gitlab ramaX`  
+- `git fetch origin`  
+- `git pull origin main`  
+- `git fetch gitlab`  
+- `git pull gitlab main`  
+- `git push gitlab main`  
+
+### ✔ Conclusión final
+Trabajar con múltiples remotos me ha permitido entender cómo sincronizar un mismo repositorio con diferentes plataformas, cómo mantener ramas y merges coherentes entre ellas y cómo gestionar flujos paralelos de trabajo. Es un proceso muy útil para entornos profesionales donde se utilizan varias herramientas a la vez.
