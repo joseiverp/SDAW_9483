@@ -233,3 +233,17 @@ A continuación se muestra la salida del comando:
 | * 5298068 docs rama2: añadir salida de git log en una línea
 |/
 * db644e8 primer commit - estructura inicial del proyecto SDAW_9483
+
+---
+
+# 🟩 Contenido añadido en la segunda parte de la tarea (rama 4)
+
+## 📝 Resumen del procedimiento para conectar el repositorio local con GitLab
+Para conectar mi repositorio local con un nuevo remoto en GitLab, primero configuré el acceso SSH y añadí la clave pública en mi cuenta. Después obtuve la URL SSH del proyecto vacío en GitLab. Desde mi repositorio local ejecuté el comando `git remote add gitlab <URL>` para añadir un segundo remoto sin eliminar el de GitHub. Verifiqué la configuración con `git remote -v` y finalmente subí los archivos con `git push gitlab main`, replicando el proyecto completo en GitLab.
+
+## Información técnica añadida desde rama 4
+- Añadir remoto: `git remote add gitlab git@gitlab.com:Joseip/sdaw_9483.git`
+- Probar conexión SSH: `ssh -T git@gitlab.com`
+- Ver remotos configurados: `git remote -v`
+- Subir cambios al remoto GitLab: `git push gitlab main`
+- Comprobar ramas y commits replicados en GitLab desde la interfaz web.
