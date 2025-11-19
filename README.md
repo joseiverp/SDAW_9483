@@ -210,3 +210,26 @@ https://github.com/joseiverp/SDAW_9483
 ## 🧠 Conclusión personal
 Esta práctica me ayudó a entender mejor el flujo real de trabajo con Git: crear ramas, hacer merges, resolver conflictos y mantener el repositorio remoto sincronizado. Además aprendí la importancia de documentar bien cada paso para que cualquiera pueda seguir el proceso.
 
+
+## 📝 Reflexión personal sobre lo aprendido (rama3_Penarrieta)
+En esta segunda parte he aprendido a trabajar con 2 remotos simultáneamente, manteniendo GitHub y GitLab conectados al mismo repositorio local. También he reforzado el uso de SSH.
+
+## Información técnica añadida desde rama 3
+A continuación se muestra la salida del comando:
+`git log --oneline --graph --all`
+
+>>
+* b0ffab0 (HEAD -> rama3_Peñarrieta, origin/main, gitlab/main, main) actualizado
+*   69ae2b2 Merge pull request #2 from joseiverp/rama2_Peñarrieta
+|\
+| *   83f3a39 (origin/rama2_Peñarrieta, rama2_Peñarrieta) fix: resolver conflicto de merge entre main y rama2
+| |\
+| |/
+|/|
+* |   6642e14 Merge pull request #1 from joseiverp/rama1_Peñarrieta
+|\ \
+| * | 0aba423 (origin/rama1_Peñarrieta, rama1_Peñarrieta) rama1: añadir explicación de comandos en README
+|/ /
+| * 5298068 docs rama2: añadir salida de git log en una línea
+|/
+* db644e8 primer commit - estructura inicial del proyecto SDAW_9483
